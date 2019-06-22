@@ -1144,7 +1144,7 @@ h1.intro-header::before {
 
 .header-logo {
   position: absolute;
-  left: 40px;
+  left: 20px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1161,9 +1161,10 @@ h1.intro-header::before {
   outline: 0;
   border: none;
   width: 200px;
-  height: 150px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 200px 68px;
+  height: 68px;
+  background: url("../images/logo_opt3.jpg") no-repeat left;
+  background-size: cover; 
+  /*background-size: 200px 68px;*/
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
