@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "cleanbill"
+    "default": "cleanbill",
+    "production": "socilife-45eac"
   }
 }
