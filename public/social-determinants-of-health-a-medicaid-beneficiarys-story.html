@@ -87,7 +87,7 @@
 		    <div class="container">
 			    <header class="blog-post-header">
 				    <h2 class="title mb-2">Social Determinants of Health - A Medicaid Beneficiary's Story</h2>
-				    <div class="meta mb-3"><span class="date">Published 0 days ago</span><span class="time">10 min read</span><span class="comment"><a href="#">0 comments</a></span></div>
+				    <div class="meta mb-1"><span class="date">Published <span id="timeSince"></span> ago</span><span class="time">10 min read</span><span class="comment"><a href="#">0 comments</a></span></div>
 			    </header>
 			    
 			    <div class="blog-post-body">
@@ -152,7 +152,10 @@ Proper housing, transportation, and food will continue to be the biggest priorit
     
     <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
     <script src="assets/js/demo/style-switcher.js"></script>     
-    
+    <script src="js/utils.js"></script>
+	<script>
+		document.getElementById("timeSince").innerHTML = timeSince("07-03-2019"); 
+    </script>
 
 </body>
 </html> 

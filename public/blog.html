@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <title>Social Determinants of Health (SDOH) Blog</title>
     
@@ -96,8 +96,9 @@
 				    <div class="media">
 					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="images/banner_image.jpg" alt="image">
 					    <div class="media-body">
-						    <h3 class="title mb-1"><a href="social-determinants-of-health-a-medicaid-beneficiarys-story.html">Social Determinants of Health - A Medicaid Beneficiary's Story</a></h3>
-						    <div class="meta mb-1"><span class="date">Published 0 days ago</span><span class="time">10 min read</span><span class="comment"><a href="#">0 comments</a></span></div>
+							<h3 class="title mb-1"><a href="social-determinants-of-health-a-medicaid-beneficiarys-story.html">Social Determinants of Health - A Medicaid Beneficiary's Story</a></h3>
+							
+						    <div class="meta mb-1"><span class="date">Published <span id="timeSince"></span> ago</span><span class="time">10 min read</span><span class="comment"><a href="#">0 comments</a></span></div>
 						    <div class="intro">We’ll just call him by his first name. He won’t mind if we used his full name. He won’t even mind if we published his SSN in this blog post. He doesn’t think he has anything to lose. Why should he? He is a Medicaid beneficiary...</div>
 						    <a class="more-link" href="social-determinants-of-health-a-medicaid-beneficiarys-story.html">Read more &rarr;</a>
 					    </div><!--//media-body-->
@@ -149,11 +150,13 @@
     <script src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script src="assets/plugins/popper.min.js"></script> 
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <script src="assets/js/demo/style-switcher.js"></script>     
-    
+	<script src="js/plugins.js"></script>
+	<script src="js/utils.js"></script>
+	<script>
+		document.getElementById("timeSince").innerHTML = timeSince("07-03-2019"); 
+    </script>
 
 </body>
+
 </html> 
 
